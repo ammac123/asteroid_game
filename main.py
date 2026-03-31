@@ -51,6 +51,11 @@ def main():
                     _shot.kill()
                     _asteroid.split()
 
+        # for _asteroid_a in asteroids:
+        #     for _asteroid_b in asteroids:
+        #         if _asteroid_a.collides_with(_asteroid_b):
+        #             _asteroid_a.collision(_asteroid_b)
+
         for _drawable in drawable:
             _drawable.draw(screen)
         pygame.display.flip()
