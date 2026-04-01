@@ -16,5 +16,5 @@ uv run main.py
 
 ## Requirements
 
-- Python 3.13+
+- Python 3.13
 - pygame 2.6.1
